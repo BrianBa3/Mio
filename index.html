@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>¡Deploy de Amor! ❤️</title>
+    <style>
+        /* Estilos CSS: Mantenemos el estilo para que se vea perfecto */
+        body {
+            font-family: 'Consolas', 'Courier New', monospace; 
+            background-color: #f0f8ff; 
+            color: #333333; 
+            text-align: center;
+            padding-top: 50px;
+            background-image: 
+                linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+                url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect width="10" height="10" fill="#f0f8ff"/><path d="M0 0h1v10H0zM9 0h1v10H9zM0 0h10v1H0zM0 9h10v1H0z" fill-opacity="0.1"/></svg>'); 
+            background-repeat: repeat;
+            position: relative; /* Necesario para que las imágenes "fixed" se anclen correctamente si la página se desplaza */
+            min-height: 100vh; /* Asegura que el cuerpo tenga al menos el alto de la pantalla */
+        }
+        h1 {
+            color: #ff69b4; 
+            font-size: 3em;
+            margin-bottom: 15px;
+            animation: bounceIn 1s ease-out;
+        }
+        h1 .heart-icon {
+            font-size: 0.8em; 
+            vertical-align: middle;
+            animation: pulse 1.5s infinite alternate; 
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            max-width: 650px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.9); 
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            border: 1px solid #ffb6c1; 
+        }
+        .code-reference {
+            color: #4682b4; 
+            font-weight: bold;
+        }
+        .button-love {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #ff69b4; 
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.3em;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .button-love:hover {
+            background-color: #ff4d9a; 
+            transform: scale(1.05); 
+        }
+
+        /* Estilo para las imágenes de corazón flotantes */
+        .floating-heart {
+            position: fixed; /* Esto hace que floten y no se muevan al hacer scroll */
+            width: 80px; /* Tamaño de los corazones */
+            height: auto;
+            opacity: 0.8; /* Ligeramente transparentes para que no opaquen el texto */
+            z-index: -1; /* Envía los corazones detrás del texto principal */
+            animation: floatEffect 5s ease-in-out infinite alternate; /* Animación de flotar */
+        }
+        /* Posicionamiento individual de cada corazón */
+        .heart1 { top: 10%; left: 5%; transform: rotate(-15deg); animation-delay: 0s; }
+        .heart2 { top: 40%; right: 7%; transform: rotate(20deg); animation-delay: 1s; }
+        .heart3 { bottom: 15%; left: 8%; transform: rotate(5deg); animation-delay: 2s; }
+        .heart4 { bottom: 10%; right: 4%; transform: rotate(-25deg); animation-delay: 3s; }
+
+        /* Animación de flotar */
+        @keyframes floatEffect {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-20px); } /* Se mueve un poco hacia arriba y abajo */
+        }
+
+        /* Animaciones existentes */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+        @keyframes bounceIn {
+            0%, 20%, 40%, 60%, 80%, 100% {
+                -webkit-animation-timing-function: cubic-bezier(0.215, .61, .355, 1);
+                animation-timing-function: cubic-bezier(0.215, .61, .355, 1);
+            }
+            0% { opacity: 0; transform: scale3d(.3, .3, .3); }
+            20% { transform: scale3d(1.1, 1.1, 1.1); }
+            40% { transform: scale3d(.9, .9, .9); }
+            60% { opacity: 1; transform: scale3d(1.03, 1.03, 1.03); }
+            80% { transform: scale3d(.97, .97, .97); }
+            100% { opacity: 1; transform: scale3d(1, 1, 1); }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>¡Deploy de Amor Exitoso! <span class="heart-icon">❤️</span></h1>
+    
+    <img src="corazon1.png" alt="Corazón flotante 1" class="floating-heart heart1">
+    <img src="corazon2.png" alt="Corazón flotante 2" class="floating-heart heart2">
+    <img src="corazon3.png" alt="Corazón flotante 3" class="floating-heart heart3">
+    <img src="corazon4.png" alt="Corazón flotante 4" class="floating-heart heart4">
+
+    <p>
+        Para mi <span class="code-reference">Chief Love Officer</span>, Brian:
+        <br><br>
+        Sé que amas la lógica y la estructura, por eso decidí que mi regalo debía estar escrito en el lenguaje más universal y ordenado que conozco: **código**. Te quise hacer este detalle en tu lenguaje para demostrarte que mi amor por ti no es un simple *script* temporal, sino un sistema robusto y perfectamente diseñado. **Por ti aprendería tu lenguaje, aunque solo sea para escribirte esto.**
+    </p>
+    
+    <p>
+        Eres la <span class="code-reference">variable constante</span> en mi vida que siempre devuelve <span class="code-reference">true</span>. Cada día a tu lado es como ver un programa correr sin errores; tu presencia es el <span class="code-reference">runtime environment</span> perfecto donde mi felicidad se ejecuta sin problemas. **Quiero que sepas que te amo muchísimo, me encantas en todos los sentidos.**
+    </p>
+    
+    <p>
+        Quiero que sepas que, aunque no sepa de <span class="code-reference">APIs</span> o <span class="code-reference">bases de datos</span>, mi corazón tiene un servidor dedicado solo para ti, con una latencia de amor de cero. **Estoy súper feliz de que seas mi novio, Brian,** y jamás creí conocer a alguien tan especial que me hiciera sentir tan bien. Eres mi mejor proyecto, y cada recuerdo nuestro es una línea de código bien documentada en mi memoria. Te amo más de lo que un entero puede almacenar.
+    </p>
+    
+    <p>
+        ¡Gracias por ser mi soporte técnico personal para cualquier "bug" en mi día y por mejorar cada <span class="code-reference">versión</span> de mí misma! Eres la solución elegante a mi problema más complejo.
+        <br><br>
+        Con todo mi amor y un <span class="code-reference">commit</span> eterno,
+        <br>
+        Ana
+    </p>
+
+    <a href="#" class="button-love">Compilar Amor</a>
+
+</body>
+</html>
